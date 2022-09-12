@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main
- *
- * codes for printing combination of two two digits
+ * main - codes for printing combination of two two digits
  *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
@@ -23,10 +22,10 @@ int main(void)
 			putchar((y / 10) + 48);
 			putchar((y % 10) + 48);
 			if (x != 98 || y != 99)
-		{			
+			{			
 			putchar(',');
 			putchar(' ');
-		}
+			}
 		}
 	}
 	}
