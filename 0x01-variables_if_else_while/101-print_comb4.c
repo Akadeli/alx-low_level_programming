@@ -4,7 +4,7 @@
  *
  * codes for printing all possible two digits in ascending order
  *
- * REturn: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -24,7 +24,7 @@ int main(void)
 					continue;
 
 				putchar(',');
-					putchar(' ');
+				putchar(' ');
 			}
 		}
 	}
