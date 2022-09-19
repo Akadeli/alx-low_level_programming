@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
 
 /**
  * main - entry point
@@ -12,7 +11,6 @@
 int main(void)
 {
 	char c;
-
 	int x;
 
 	srand(time(0));
@@ -24,6 +22,5 @@ int main(void)
 	}
 
 	putchar(2772 - x);
-
 	return (0);
 }
