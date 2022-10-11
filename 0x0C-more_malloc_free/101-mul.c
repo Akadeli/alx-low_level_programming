@@ -69,6 +69,7 @@ char *iterate_zeroes(char *str)
 /**
  * get_digit - Converts a digit character to a corresponding int.
  * @c: The character to be converted.
+ *
  * Description: If c is a non-digit, the function
  *              exits with a status of 98.
  * Return: The converted int.
