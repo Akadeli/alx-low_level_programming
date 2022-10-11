@@ -36,10 +36,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(new_dog);
 		return (NULL);
 	}
-
 	new_dog->owner = _strcpy(new_dog->owner, owner);
 	new_dog->age = age;
-
 	return (new_dog);
 }
 
@@ -72,7 +70,7 @@ char *_strcpy(char *dest, char *src)
 	while (src[a] != '\0')
 	{
 		dest[a] = src[a];
-		a++
+		a++;
 	}
 
 	dest[a] = '\0';
